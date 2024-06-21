@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - docker-test
+      - graphique
 jobs:
   Deploy-Docker-Compose:
     runs-on: [self-hosted, linux, x64]
