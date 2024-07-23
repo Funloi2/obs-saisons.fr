@@ -3,8 +3,6 @@ run-name: OBS
 on:
   push:
     branches:
-      - docker-test
-      - graphique
       - graphiqueV2
 jobs:
   Deploy-Docker-Compose:
