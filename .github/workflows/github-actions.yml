@@ -21,7 +21,7 @@ jobs:
         uses: actions/checkout@v3
         with:
           repository: 'Funloi2/obs-saisons.fr'
-          ref: 'docker-test'
+          ref: 'graphiqueV2'
       - name: down
         run: sudo -E docker-compose down
       - name: clear cache
